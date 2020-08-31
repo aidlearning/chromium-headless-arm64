@@ -19,7 +19,7 @@ jobs:
       uses: ilteoood/docker_buildx@1.0.4
       with:
         tag: latest
-        imageName: chromium-headless-arm64 
+        imageName: bianzhifu/chromium-headless-arm64 
         dockerFile: Dockerfile
         publish: true
         platform: linux/arm64
